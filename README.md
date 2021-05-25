@@ -21,3 +21,5 @@ Tutorial: https://daveceddia.com/redux-tutorial/
 Redux devtools: https://github.com/zalmoxisus/redux-devtools-extension
 
 ## Inspelningar
+
+Förmiddag: https://ithogskolan.sharepoint.com/sites/Frontendutvecklare2020/Delade%20dokument/Effektiv%20frontendutveckling/Recordings/Effektiv%20frontendutveckling-20210525_090754-M%C3%B6tesinspelning%201.mp4?web=1
