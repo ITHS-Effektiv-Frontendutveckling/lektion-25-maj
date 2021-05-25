@@ -1,8 +1,10 @@
-import books from '../assets/childrensbooks.json';
+import { useSelector } from 'react-redux';
 
 import Book from '../components/Book';
 
 function Books() {
+  const books = useSelector((state) => { return state.books });
+
   return (
     <section className="books">
       { books.map((book) => {

@@ -4,3 +4,10 @@ export const setBook = (book) => {
     payload: book
   }
 }
+
+export const addBooks = (books) => {
+  return {
+    type: 'ADD_BOOKS',
+    payload: books
+  }
+}

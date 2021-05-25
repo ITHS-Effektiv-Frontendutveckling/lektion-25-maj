@@ -1,5 +1,6 @@
 const initialState = {
-  book: {}
+  book: {},
+  books: []
 }
 
 export const bookReducer = (state = initialState, action) => {
@@ -8,6 +9,11 @@ export const bookReducer = (state = initialState, action) => {
       return {
         ...state,
         book: action.payload
+      }
+    case 'ADD_BOOKS':
+      return {
+        ...state,
+        books: action.payload
       }
     default:
       return state
